@@ -13,7 +13,7 @@ RUN pip install oauthenticator ecsspawner && \
 # Create oauthenticator directory and put necessary files in it
 WORKDIR /srv/jupyterhub
 ENV OAUTHENTICATOR_DIR /srv/jupyterhub
-ADD .aws /root/.aws
+#ADD .aws /root/.aws
 ADD jupyterhub_config.py /etc/jupyterhub/jupyterhub_config.py
 #ADD addusers.sh /srv/jupyterhub/addusers.sh
 ADD userlist /srv/jupyterhub/userlist
