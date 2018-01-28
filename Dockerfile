@@ -2,7 +2,7 @@
 # 
 # docker run -it -p 8000:8000 jupyterhub/oauthenticator
 
-FROM jupyterhub/jupyterhub:0.7.1
+FROM jupyterhub/jupyterhub:0.7.2
 
 MAINTAINER CSM Data Science Tech Support <dwtownse@calpoly.edu>
 
